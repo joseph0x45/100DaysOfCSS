@@ -148,6 +148,31 @@
     color: white;
 }
 
+.keepme{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: auto;
+}
+
+.keepme input{
+    background-color: transparent;
+    border: none;
+}
+
+.redirect{
+
+}
+
+.submit{
+    background-color: white;
+    color: #1f84f8;
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0px;
+    margin: 25px;
+}
 
 body {
     background-color: rgb(179, 172, 172);
