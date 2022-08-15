@@ -4,10 +4,26 @@
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    /**/
+    /*NOTE styling*/
     background-color: aqua;
-    width: 500px;
-    height: 500px;
+    width: 1200px;
+    height: 800px;
+    border-radius: 15px;
+    /*NOTE layout*/
+    display: flex;
+}
+
+.left-side{
+    height: 100%;
+    width: 50%;
+}
+
+.right-side{
+    height: 100%;
+    width: 50%;
+    border-left-color: black;
+    border-left: 1px;
+    border-left-style: solid;
 }
 
 body{
