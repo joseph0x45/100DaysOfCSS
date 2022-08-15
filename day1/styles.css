@@ -97,6 +97,7 @@
     border-width: 1px;
     border-style: solid;
     border-radius: 8px;
+    width: 350px;
 }
 
 .email-input input{
@@ -116,8 +117,35 @@
     color: white;
 }
 
-.password-input input{
+.password-input {
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
 
+.password-input div{
+    border: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.password-input input{
+    background-color: transparent;
+    border: none;
+    height: 35px;
+    padding: 5px;
+    caret-color: white;
+    
+}
+
+.password-input input:focus{
+    outline: none;
+}
+
+.password-input input::placeholder{
+    color: white;
 }
 
 
