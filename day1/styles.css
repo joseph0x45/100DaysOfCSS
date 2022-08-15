@@ -52,7 +52,6 @@
     margin: auto;
     background-color: transparent;
     color: white;
-    height: 50px;
 }
 
 .alternative {
@@ -115,7 +114,7 @@
 }
 
 .email-input input::placeholder{
-    color: white;
+    color: whitesmoke;
 }
 
 .password-input {
@@ -146,7 +145,7 @@
 }
 
 .password-input input::placeholder{
-    color: white;
+    color: whitesmoke;
 }
 
 .keepme{
