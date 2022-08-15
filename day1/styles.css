@@ -1,11 +1,13 @@
 .signup-div{
-    background-color: aqua;
+    /*center the div*/
     top: 50%;
     left: 50%;
     position: absolute;
+    transform: translate(-50%, -50%);
+    /**/
+    background-color: aqua;
     width: 500px;
     height: 500px;
-    transform: translate(-50%, -50%);
 }
 
 body{
