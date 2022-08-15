@@ -59,7 +59,7 @@
     margin: 10px ;
     color: white;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     max-width: 600px;
     position: relative;
 }
@@ -84,6 +84,14 @@
     right: 0;
     top: 50%;
     position: absolute;
+}
+
+.email-input{
+
+}
+
+.password-input{
+
 }
 
 
