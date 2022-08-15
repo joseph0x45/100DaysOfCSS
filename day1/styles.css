@@ -52,6 +52,7 @@
     margin: auto;
     background-color: transparent;
     color: white;
+    height: 50px;
 }
 
 .alternative {
@@ -167,7 +168,7 @@
     height: 50px;
     border-radius: 15px;
     border: 0px;
-    margin: 25px;
+    margin: 40px;
 }
 
 body {
