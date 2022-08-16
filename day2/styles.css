@@ -38,5 +38,15 @@ body{
     border-left-color: black;
     border-left: 1px;
     border-left-style: solid;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-form{
+    background-color: aquamarine;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 15px;
 }
