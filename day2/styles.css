@@ -35,9 +35,6 @@ body{
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     text-align: left;
-    border-left-color: black;
-    border-left: 1px;
-    border-left-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,4 +80,25 @@ body{
 
 .cvv input:focus{
     outline: none;
+}
+
+.pay-btn{
+    text-align: center;
+    background-color: #6c63ff;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.pay-btn button{
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+}
+
+.total{
+    text-align: center;
+    margin: 50px;
 }
