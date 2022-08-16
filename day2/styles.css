@@ -56,7 +56,7 @@ body{
     border-bottom: 2px;
     border-color: black;
     border-bottom-style: solid;
-    width: 80%;
+    width: 100%;
     height: 60px;
 }
 
@@ -66,4 +66,21 @@ body{
 
 .form .payment-input{
     margin: 20px 0px;
+}
+
+.cvv input{
+    background: none;
+    border: none;
+    border-bottom: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    height: 60px;
+}
+.cvv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cvv input:focus{
+    outline: none;
 }
