@@ -50,7 +50,7 @@ body{
     border-radius: 15px;
 }
 
-.name-input{
+.payment-input{
     background: none;
     border: none;
     border-bottom: 2px;
@@ -60,6 +60,10 @@ body{
     height: 60px;
 }
 
-.name-input:focus{
+.payment-input:focus{
     outline: none;
+}
+
+.form .payment-input{
+    margin: 15px;
 }
