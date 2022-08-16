@@ -8,21 +8,28 @@ body{
     left: 50%;
     background-color: white;
     transform: translate(-50%, -50%);
-    border-radius: 15px;
     display: flex;
-    justify-content: space-between;
     width: 1500px;
     height: 900px;
+    border-radius: 15px;
 }
 
 .svg-container{
     width: max-content;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blue;
 }
 
 .left-side{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
 
+.right-side{
+    background-color: aquamarine;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
