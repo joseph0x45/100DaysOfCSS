@@ -1,5 +1,7 @@
 body{
     background-color: #6c63ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
 
 .container{
@@ -19,17 +21,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    width: 100%;
 }
 
 .left-side{
+    position: relative;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 .right-side{
-    background-color: aquamarine;
     width: 100%;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    text-align: center;
+    border-left-color: black;
+    border-left: 1px;
+    border-left-style: solid;
+    
 }
