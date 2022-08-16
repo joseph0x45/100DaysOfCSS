@@ -34,7 +34,7 @@ body{
     width: 100%;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    text-align: center;
+    text-align: left;
     border-left-color: black;
     border-left: 1px;
     border-left-style: solid;
@@ -44,9 +44,22 @@ body{
 }
 
 .payment-form{
-    background-color: aquamarine;
     width: 80%;
     height: 80%;
     margin: auto;
     border-radius: 15px;
+}
+
+.name-input{
+    background: none;
+    border: none;
+    border-bottom: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    width: 80%;
+    height: 60px;
+}
+
+.name-input:focus{
+    outline: none;
 }
