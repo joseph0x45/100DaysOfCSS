@@ -1,15 +1,12 @@
-body{
-}
 
 .landing{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: url('./layered-waves-haikei.svg') no-repeat center center;
+    background: url('./layered-waves-haikei.svg') no-repeat;
     background-size: cover;
-    width: 1500px;
-    height: 700px;
-    border-radius: 15px;
+    width: 100%;
+    height: 100%;
 }
 
