@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 .landing{
@@ -34,5 +35,31 @@ body{
 
 .socials div{
     text-decoration: underline;
-    
 }
+
+.cta{
+    position: relative;
+    top: 25%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.cta button{
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    padding: 15px;
+    margin-top: 35px;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.cta button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
