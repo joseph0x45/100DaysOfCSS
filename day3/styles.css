@@ -1,3 +1,6 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .landing{
     position: absolute;
@@ -10,3 +13,26 @@
     height: 100%;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 55px;
+    align-items: baseline;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.socials div{
+    text-decoration: underline;
+    
+}
