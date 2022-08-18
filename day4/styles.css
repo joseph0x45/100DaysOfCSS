@@ -23,18 +23,22 @@ body{
     width: 100%;
     background-color: white;
     border-radius: 25px;
-    display: grid;
-    grid-template-rows: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .screen{
     background-color: aquamarine;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    text-align: right;
+    height: 100%;
 }
 
 .keyboard{
     background-color: cadetblue;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    height: 100%;
 }
