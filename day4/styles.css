@@ -52,8 +52,25 @@ body{
 }
 
 .keyboard{
-    background-color: cadetblue;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.keyboard div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.keyboard div button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: #7550ff solid 2px;
+    font-size: x-large;
 }
