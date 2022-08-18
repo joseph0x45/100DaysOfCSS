@@ -28,9 +28,13 @@ body{
 }
 
 .screen{
-
+    background-color: aquamarine;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .keyboard{
-    
+    background-color: cadetblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
