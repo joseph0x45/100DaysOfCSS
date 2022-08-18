@@ -44,6 +44,7 @@ body{
 
 .screen .input{
     font-size: 40px;
+    
 }
 
 .screen .result{
@@ -73,4 +74,9 @@ body{
     cursor: pointer;
     border: #7550ff solid 2px;
     font-size: x-large;
+}
+
+.btn-equal{
+    background-color: #7550ff;
+    color: white;
 }
