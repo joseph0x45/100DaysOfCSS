@@ -35,5 +35,9 @@
 }
 
 .dot{
-    
+    position: fixed;
+    top: 65px;
+    left: 360px;
+    border: 25px white solid;
+    border-radius: 100px;
 }
