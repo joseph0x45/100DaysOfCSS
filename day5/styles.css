@@ -1,4 +1,10 @@
+body{
+    background: url('./blob-scene-haikei.svg') no-repeat;
+    background-size: cover;
+}
+
 .app {
+    border: 5px solid white;
     position: absolute;
     top: 50%;
     left: 50%;
