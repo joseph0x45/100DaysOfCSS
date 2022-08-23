@@ -23,4 +23,5 @@ body{
 .image{
     width: 50%;
     border-radius: 100%;
+    border: gray 1px solid;
 }
